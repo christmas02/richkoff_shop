@@ -1,0 +1,28 @@
+@media (min-width: 992px) {
+  .social-icon {
+    max-width: 50px !important; /* Ajustez la taille maximale selon vos besoins */
+  }
+}
+
+/* Pour les écrans moyens (≥ 768px) */
+@media (max-width: 991.98px) {
+  .social-icon {
+    max-width: 40px !important; /* Ajustez la taille maximale selon vos besoins */
+  }
+}
+
+/* Pour les écrans plus petits (≥ 576px) */
+@media (max-width: 767.98px) {
+  .social-icon {
+    margin-top: 5%;
+    max-width: 30px !important; /* Ajustez la taille maximale selon vos besoins */
+  }
+}
+
+/* Pour les écrans très petits (≥ 360px) */
+@media (max-width: 575.98px) {
+  .social-icon {
+    margin-top: 5%;
+    max-width: 100px !important; /* Ajustez la taille maximale selon vos besoins */
+  }
+}
